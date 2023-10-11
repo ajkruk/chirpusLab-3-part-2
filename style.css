@@ -1,0 +1,168 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+}
+
+header {
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+}
+
+a {
+    color: #69696a;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: .5em;
+    font-size: 16px;
+
+}
+
+header > nav > button {
+    margin-top: 1em;
+    
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+blockquote {
+    color: #69696a;
+    border-left: 2px solid;
+    padding-left: 1em;
+    margin-left: 1em;
+    
+
+}
+
+
+
+button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 2em;
+    width: 100%;
+    padding: 1em;
+    border: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(247, 193, 162, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+   
+}
+
+footer > p {
+    padding-left: 1em;
+}
+
+footer > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    padding-right: 1em; 
+
+}
+
+footer > nav > a {
+    padding: 0 1em 0 0;
+}
+
+@media (min-width: 768px) {    
+
+header {
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header > nav > a {
+    margin: 0 10px;
+    padding: 0;
+    
+}
+header > nav > button {
+    margin: 0;
+    padding: auto;
+    width: auto;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+blockquote {
+    width: 50%;
+}
+
+main > div > button {
+    width: 50%;
+    max-width: 50%;
+}
+
+.circleBase {
+    border-radius: 50%;
+}
+
+.circle1 {
+    height: 9em;
+    width: 9em;
+    background: rgba(247, 136, 167, 0.6);
+    display: block;
+    position: relative;
+    top: 5em;
+    right: 5em;
+}
+
+.circle2 {
+    height: 7.5em;
+    width: 7.5em;
+    background: rgba(247, 193, 162, 0.7);
+    display: block;
+    position: relative;
+    right: 1em;
+    top: 1em;
+
+}
+
+.circle3 {
+    height: 5em;
+    width: 5em;
+    background: rgba(207, 130, 213, 0.6);
+    display: block;
+    position: relative;
+    left: 2em;
+    bottom: 9em;
+
+}
+
+}
